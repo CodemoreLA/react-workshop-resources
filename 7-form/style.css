@@ -1,0 +1,13 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+
+.radios label {
+  display: block;
+}
+
+input[type=checkbox], input[type=radio] {
+  margin-left: 10px;
+}
+
+input[type=submit] {
+  margin-top: 30px;
+}
