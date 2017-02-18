@@ -48,7 +48,6 @@ class Form extends Component {
               {/* Add checked prop and onClick handler */}
               <input
                 checked='{}'
-                onClick='{}'
                 type="checkbox" />
             </label>
 
