@@ -15,7 +15,7 @@ class Form extends Component {
   render() {
     return(
   // Add handleFormSubmit function to the onSubmit event on opening form tag
-      <form onSubmit={}>
+      <form onSubmit='{}'>
         <div className="row">
           <div className="col-sm-6">
             <div className="form-group">
@@ -23,8 +23,8 @@ class Form extends Component {
 
               {/* Add onChange handler and value */}
               <input
-                onChange={}
-                value={}
+                onChange='{}'
+                value='{}'
                 type="text"
                 className="form-control" />
             </div>
@@ -36,7 +36,7 @@ class Form extends Component {
               {/* we will grab this value using refs */}
               <input
                 type="text"
-                ref={}
+                ref='{}'
                 className="form-control" />
             </div>
           </div>
@@ -47,25 +47,25 @@ class Form extends Component {
 
               {/* Add checked prop and onClick handler */}
               <input
-                checked={}
-                onClick={}
+                checked='{}'
+                onClick='{}'
                 type="checkbox" />
             </label>
 
             {/* This select will use the ref technique to grab value */}
             <select className="form-control"
-              ref={}>
+              ref='{}'>
 
               {/* map over ageRanges array to produce options */}
               <option value="">Select age range</option>
-              {this.props.ageRanges.map(/* ... */)}
+              {/* this.props.ageRanges.map() & return an option for each array item */}
             </select>
           </div>
           <div className="col-sm-6 radios">
             <h4>Which would you like for lunch?</h4>
             {/* map over lunchOptions prop to produce radio options */}
             {/* also add onLunchSelect handler to the onClick event */}
-            {this.props.lunchOptions.map(/* ... */))}
+            {/* this.props.lunchOptions.map() */}
           </div>
         </div>
         <input
