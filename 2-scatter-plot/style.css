@@ -30,24 +30,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-h1 {
-	font-size: 40px;
-}
-h2 {
-	font-size: 32px;
-}
-h3 {
-	font-size: 28px;
-}
-h4 {
-	font-size: 24px;
-}
-h5 {
-	font-size: 20px;
-}
-h6 {
-	font-size: 16px;
-}
+
 body {
   margin: 0;
   padding: 0;
@@ -59,6 +42,7 @@ body {
   letter-spacing: .5px;
   font-weight: 400;
   color: #37474F;
+  font-size: 40px
 }
 .chart-container .scatter-plot {
   border: 3px solid #B0BEC5;
@@ -86,7 +70,7 @@ body {
   left: 50%;
   padding: 20px;
   width: 100px;
-  top: -150px;
+  top: -100px;
   background-color: #212121;
   color: #CFD8DC;
   border-radius: 6px;
@@ -100,7 +84,7 @@ body {
   background-color: #212121;
   left: 50%;
   transform: translateX(-50%) rotate(45deg);
-  top: 117px;
+  top: 70px;
   z-index: 2;
 }
 .controls-container {

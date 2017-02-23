@@ -31,24 +31,6 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-body {
   margin: 0;
   padding: 0;
   font-family: 'Dosis', sans-serif;
@@ -73,67 +55,8 @@ body {
 .bar {
   flex: 1;
   justify-content: space-between;
-  position: relative;
   margin: 0 5px;
   background-color: #EC407A;
   border: 2px solid #AD1457;
   border-bottom: none;
-  cursor: pointer;
-}
-
-.tool-tip {
-  position: absolute;
-  text-align: center;
-  transform: translateX(-50%);
-  left: 50%;
-  padding: 20px;
-  width: 100px;
-  top: -80px;
-  background-color: #212121;
-  color: #CFD8DC;
-  border-radius: 6px;
-  z-index: 3;
-}
-.tool-tip:before {
-  content: "";
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  background-color: #212121;
-  left: 50%;
-  transform: translateX(-50%) rotate(45deg);
-  top: 50px;
-  z-index: 2;
-}
-.controls-container {
-  display: flex;
-  width: 500px;
-  margin: 0 auto;
-  text-align: center;
-  border: 3px solid #37474F;
-}
-button {
-  flex: 1;
-  cursor: pointer;
-  height: 30px;
-  font-size: 16px;
-  font-family: 'Dosis', sans-serif;
-  letter-spacing: .5px;
-  background-color: #546E7A;
-  border: none;
-  color: #ffffff;
-  transition: .2s;
-}
-button:first-child {
-  border-right: 1px solid #37474F;
-}
-button:last-child {
-  border-left: 1px solid #37474F;
-}
-button:hover {
-  background-color: #37474F;
-  transition: .2s;
-}
-button:focus {
-  outline: none;
 }
